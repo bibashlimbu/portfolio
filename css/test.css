@@ -1,0 +1,195 @@
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/*navigation*/
+.navigation{
+	background-color: rgb(47,207,175);
+	display: block;
+}
+
+.logo{
+	height: 60px;
+	width: 65px;
+}
+
+.nav-link{
+	color: #ffffff;
+}
+
+.nav-item{
+	padding-right: 4vw;
+}
+
+.drpdown-item:hover{
+	color: rgb(47, 207, 175);
+	background-color: #ffffff;
+}
+/*Responsive*/
+
+@media only screen and (max-width: 990px){
+	.slidebar{
+		width: 100%;
+		background-color: rgb(47, 207, 175); 
+	}
+}
+
+/*introduction*/
+.introduction{
+ background-color: rgb(74, 254, 205 );
+}
+
+.intro{
+	margin-left: 8vw;
+	width: 80%;
+}
+
+.bibash{
+	font-size: 75px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 2px #ffffff;
+}
+
+.texts{
+	height: 65px;
+	display: inline-block;
+	overflow: hidden;
+	padding: 0;
+}
+
+.texts li{
+	list-style: none;
+	color: #ffffff;
+	font-size: 45px;
+	position: relative;
+	top: 0;
+	animation: typing 6s steps(3) infinite;
+}
+
+
+.texts li span{
+	position: relative;
+	padding-bottom: 5px;
+
+}
+
+.texts li span::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	background-color: rgb(74, 254, 205 ); 
+	width: 100%;
+	height: 100%;
+	border-left: 4px solid #ffffff;
+	animation: sliding 2s steps(12) infinite;
+}
+/*about*/
+.heading-center{
+	width: 325px;
+	margin: 0 auto;
+}
+
+.about-h1,.edu-h1{
+	font-size: 60px;
+	font-weight: 900;
+	opacity: 0.1;
+	position: absolute;
+	text-transform: uppercase;
+}
+
+.about-h2,.edu-h2{
+	font-size: 50px;
+	text-align: center;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+
+.about-pic{
+	box-shadow: 5px 8px 18px #808080;
+}
+
+.about-me h2{
+  	font-family: Stencil Std, fantasy;
+  	word-spacing: 10px;
+}
+
+.about-me p{
+	font-family: sans-serif;
+	font-size: 1.2em
+}
+
+.about-table{
+	font-family: sans-serif;
+	font-size: 1.1em;
+}
+
+.about-readmore{
+	border: 2px solid rgb(74, 254, 205 );
+	height: 45px;
+	border-radius: 20px;
+	color: rgb(74, 254, 205 );
+}
+
+.about-readmore:hover{
+	background-color: rgb(74, 254, 205 );
+	color: #ffffff;
+
+}
+
+.about-readmore:active{
+	border-color: rgb(74, 254, 205 );
+}
+
+/*Resume*/
+.edu-heading{/*h1 and h2 used in about-h1,h2*/
+	width: 250px;
+	margin: 0 auto;
+}
+
+.education h2,.work-exp h2{
+	font-family: Stencil Std, fantasy;
+	padding-bottom: 20px;
+}
+
+.edu-data{
+	border: 3px solid  rgb(74, 254, 205 );
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+
+}
+
+.edu-data h3{
+	font-size: 1.4em;
+	background-color: red;
+	display: inline-block;
+}
+
+
+
+/*animation*/
+@keyframes sliding{
+	100%{
+		left: 100%;
+		margin: 0 -25px 0 25px;
+	}
+}
+
+@keyframes typing{
+	100%{
+		top: -200px;
+}
+
+
+
+
+
+
+
