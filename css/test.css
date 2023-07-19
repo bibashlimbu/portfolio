@@ -1,3 +1,7 @@
+ :root{
+ 	--site-color: rgb(13,66,255);
+ }
+
  *{
 	margin: 0;
 	padding: 0;
@@ -11,8 +15,7 @@
 
 /*navigation*/
 .navigation{
-	background-color: rgb(47,207,175);
-	display: block;
+	background-color: rgb(14,29,52);
 }
 
 .logo{
@@ -21,6 +24,10 @@
 }
 
 .nav-link{
+	color: rgb(185, 185, 185);
+}
+
+.nav-link:hover,.nav-link:active{
 	color: #ffffff;
 }
 
@@ -29,26 +36,266 @@
 }
 
 .drpdown-item:hover{
-	color: rgb(47, 207, 175);
+	color: rgb(13,66,255);
 	background-color: #ffffff;
 }
+
+.drpdwn-contact li a{
+	text-align: center;
+}
+
 /*Responsive*/
 
 @media only screen and (max-width: 990px){
+	/*navigation*/
 	.slidebar{
-		width: 100%;
-		background-color: rgb(47, 207, 175); 
+		background-color: rgb(14,29,52); 
+
 	}
+
+	.slidebar .navbar-nav .nav-item{
+		text-align: center;
+		line-height: 120px;
+	}
+
+	.slidebar .navbar-nav .nav-item a{
+		font-size: 2.5em;
+	}
+
+	/*introduction*/
+
+	.profile-pic{
+		width: 100%;
+		text-align: center;
+	}
+
+	.profile-pic img{
+		width: 700px;
+		height: 750px;
+	}
+
+	.intro{
+		width: 780px;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.intro .name{
+		font-size: 4.5em;
+		text-align: center;
+	}
+
+	.intro .bibash{
+		font-size: 7.5em;
+		
+	}
+
+	/*about*/
+	.about .heading-center{
+		width: 430px;
+
+	}
+
+	.heading-center .about-h1,.edu-heading .edu-h1{
+		font-size: 5em;
+		
+	}
+
+	.heading-center .about-h2,.edu-heading .edu-h2{
+		font-size: 4.4em;
+
+	}
+
+	 .about .about-center{
+	 	display: inline-block;
+	 }
+
+	 .about-pic{
+	 	text-align: center;
+	 	margin-bottom: 40px;
+	 }
+
+	 .about .about-pic img{
+	 	width: 855px;
+	 	height: 880px;
+	 }
+
+	 .about-me h2{
+	 	font-size: 3em;
+	 }
+
+	 .about .about-me p,.about .about-table{
+	 	font-size: 1.9em;
+	 }
+
+	 /*resume*/
+	 .resume .edu-heading{/*h1 and h2 used in about*/
+	 	width: 330px;
+	 }
+
+	 .resume .resume-center{
+	 	display: inline-block;
+	 }
+
+
+	 .education h2,.work-exp h2{
+	 	font-size: 3em;
+	 }
+
+
+	 .resume-center .edu-data h3,.resume-center .wrkexp-data h3{
+	 	font-size: 2.3em;
+	 	margin-left: 25px;
+	 }
+
+	 .resume-center .fa-circle-dot{
+	  	font-size: 2em;
+		padding-top: 9px;
+	  }
+
+	  .resume-center .education{
+	  	margin-bottom: 40px;
+	  }
+
+	 .education .edu-data h4,.work-exp .wrkexp-data h4{
+	  	font-size: 1.9em;
+	  	margin-left: 25px;
+	  }
+
+	 .education .edu-data p,.work-exp .wrkexp-data ul li{
+	  	font-size: 1.7em;
+	  }
+
+	  /*skills*/
+	  .skills .skills-heading{
+	  	width: 265px
+	  }
+
+	 .skills-heading .skl-h1{
+	 	font-size: 5em;
+	 }
+
+	 .skills-heading .skl-h2{
+	 	font-size: 4.4em;
+	 }
+
+	.skills .skills-bar{
+		width: 90%;
+		display: inline-block;
+	 }
+
+	 .skills .sctn1-bar,.skills .sctn2-bar{
+	 	width: 100%;
+	 }
+
+	.skills-bar .progress{
+		height: 30px;
+		margin-bottom: 75px;
+	}
+
+	.skills-bar .sctn1-bar h5,.skills-bar .sctn2-bar h5{
+		font-size: 1.7em;
+	} 
+
+	/*gallery*/
+	.gallery .glry-heading{
+		width: 352px;
+	}
+
+	.glry-heading .glry-h1{
+		font-size: 5em; 
+	}
+
+	.glry-heading .glry-h2{
+		font-size: 4.4em;
+	}
+
+	.gallery .first-row{
+		display: grid;
+		grid-template-columns: auto; 
+	}
+
+	.first-row .img1,.first-row .img2,.first-row .img3{
+		text-align: center;
+	}
+
+	.first-row .img4,.first-row .img5,.first-row .img6{
+		text-align: center;
+
+	}
+
+	.img-glry{
+		width: 900px;
+		height: 950px;
+	}
+
+	/*contact*/
+	.contact .cnt-heading{
+		width: 387px;
+	}
+
+	.cnt-heading .cnt-h1{
+		font-size: 5em;
+	}
+
+	.cnt-heading .cnt-h2{
+		font-size: 4.4em;
+	}
+
+	.contact .contact-row{
+		grid-template-columns: auto;
+	}
+
+
+.email,.whats-app,.send-msg{
+	height: 200px;
+}
+
+.contact-row .email h3,.contact-row .whats-app h3,.contact-row .send-msg h3{
+	font-size: 3em;
+}
+
+.contact-row .fa-envelope,.contact-row .fa-square-whatsapp,.contact-row .fa-message{
+	font-size: 55px;
+	margin-top: 2px;
+}
+
+.contact-row .email p,.contact-row .whats-app p{
+	font-size: 1.7em;
+}
+
+.email .email-center,.whats-app .whatsapp-center,.send-msg .sendmsg-center{
+	padding-top: 35px;
+}
+
+.send-msg .btn-sendmsg{
+	width: 180px;
+	height: 50px;
+	font-size: 1.2em;
+
+}
+
+
 }
 
 /*introduction*/
 .introduction{
- background-color: rgb(74, 254, 205 );
+ background-color: var(--site-color);
+ margin-top: 85px;
+}
+
+.intro-center{
+}
+
+.profile-pic{
+	display: inline-block;
+	float: left;
 }
 
 .intro{
 	margin-left: 8vw;
-	width: 80%;
+	float: left;
+	display: inline-block;
 }
 
 .bibash{
@@ -84,7 +331,7 @@
 	content: "";
 	position: absolute;
 	left: 0;
-	background-color: rgb(74, 254, 205 ); 
+	background-color: var(--site-color); 
 	width: 100%;
 	height: 100%;
 	border-left: 4px solid #ffffff;
@@ -96,7 +343,7 @@
 	margin: 0 auto;
 }
 
-.about-h1,.edu-h1{
+.about-h1,.edu-h1,.skl-h1,.glry-h1,.cnt-h1{
 	font-size: 60px;
 	font-weight: 900;
 	opacity: 0.1;
@@ -104,47 +351,60 @@
 	text-transform: uppercase;
 }
 
-.about-h2,.edu-h2{
+.about-h2,.edu-h2,.skl-h2,.glry-h2,.cnt-h2{
 	font-size: 50px;
 	text-align: center;
+	font-weight: 700;
 	padding-top: 25px;
 	text-transform: uppercase;
 }
 
-.about-pic{
+.about-center{
+	display: flex;
+}
+
+.about-pic img{
+	width: 390px;
+	height: 430px;
 	box-shadow: 5px 8px 18px #808080;
 }
 
+
 .about-me h2{
-  	font-family: Stencil Std, fantasy;
+  	font-family: Comic Sans MS, Comic Sans, cursive;
   	word-spacing: 10px;
 }
 
 .about-me p{
 	font-family: sans-serif;
-	font-size: 1.2em
+	font-size: 1.1em;
+	font-weight: 600;
+	opacity: 0.7;
+	margin-top: 30px
 }
 
 .about-table{
-	font-family: sans-serif;
 	font-size: 1.1em;
+	font-weight: 600;
+	opacity: 0.7;
 }
 
 .about-readmore{
-	border: 2px solid rgb(74, 254, 205 );
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border: 2px solid var(--site-color); 
 	height: 45px;
 	border-radius: 20px;
-	color: rgb(74, 254, 205 );
+	color:  var(--site-color); 
 }
 
 .about-readmore:hover{
-	background-color: rgb(74, 254, 205 );
+	background-color:  var(--site-color); 
 	color: #ffffff;
 
-}
-
-.about-readmore:active{
-	border-color: rgb(74, 254, 205 );
 }
 
 /*Resume*/
@@ -154,22 +414,237 @@
 }
 
 .education h2,.work-exp h2{
-	font-family: Stencil Std, fantasy;
+	font-family: Comic Sans MS, Comic Sans, cursive;
 	padding-bottom: 20px;
 }
 
-.edu-data{
-	border: 3px solid  rgb(74, 254, 205 );
+.resume-center{
+	display: flex;
+}
+
+.edu-data,.wrkexp-data{
+	border: 3px solid var(--site-color); 
 	border-top: none;
 	border-right: none;
 	border-bottom: none;
 
 }
 
-.edu-data h3{
+.fa-circle-dot{
+	color: var(--site-color);  
+	position: absolute;
+}
+
+.edu-data h3,.wrkexp-data h3{
 	font-size: 1.4em;
-	background-color: red;
+	display:block;
+	opacity: 0.9;
+}
+
+.edu-data h4,.wrkexp-data h4{
+	font-size: 1.3em;
+	background-color: var(--site-color); 
+	color: #ffffff;
 	display: inline-block;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.edu-data p,.wrkexp-data ul li{
+	font-size: 1.1em;
+	font-weight: 600;
+	opacity: 0.7;
+}
+
+/*Skills*/
+.skills-heading{/*h1 and h2 used in about-h1,h2*/
+	width: 195px;
+	margin: 0 auto;
+}
+
+.skills-bar{
+	display: flex;
+}
+
+.sctn1-bar{
+	width: 50%;
+	margin-right: 5%;
+}
+
+.sctn2-bar{
+	width: 50%;
+}
+
+.sctn1-bar h5,.sctn2-bar h5{
+	font-size: 1.1em;
+	font-weight: 700;
+	opacity: 0.7;
+	display: inline-block;
+}
+
+.progress{
+	margin-bottom: 35px;
+ 	color: var(--site-color); 
+}
+
+.progress-bar{
+	background-color: var(--site-color); 
+}
+
+/*Gallery*/
+.glry-heading{/*h1 and h2 used in about-h1,h2*/
+	width: 268px;
+	margin: 0 auto;
+}
+
+.first-row{
+	display: grid;
+	column-gap: 5%;
+	grid-template-columns: auto auto auto auto;
+	grid-row-gap: 40px;
+}
+
+.first-row .img1{
+	display: inline-block;
+	background-color: red;
+}
+
+.img-glry{
+	cursor: pointer;
+}
+
+.img-glry:hover{
+	box-shadow: 0 0 25px 6px var(--site-color); 
+}
+
+
+
+/*contact*/
+.cnt-heading{
+	width: 295px;
+	margin: 0 auto;
+}
+
+.contact-row{
+	display: grid;
+	column-gap: 6%;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 40px;
+}
+
+.email,.whats-app,.send-msg{
+	box-shadow: 0 0 25px #D0D0D0;
+}
+
+.fa-envelope,.fa-square-whatsapp{
+	font-size: 35px;
+	margin-top: 2px;
+	color: var(--site-color); 
+}
+
+.fa-message{
+	font-size: 35px;
+	margin-top: 5px;
+	color: var(--site-color);
+}
+
+.email h3,.whats-app h3,.send-msg h3{
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 1.9em;
+	margin-left: 16px;
+	font-weight: 700;
+}
+
+.email p,.whats-app p{
+	font-size: 1.2em;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.btn-sendmsg{
+	width: 150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border: 2px solid var(--site-color); 
+	height: 35px;
+	border-radius: 20px;
+	color: var(--site-color); 
+}
+
+.btn-sendmsg:hover{
+	background-color: var(--site-color); 
+	color: #ffffff;
+}
+/*footer*/
+.footer{
+	background-color: var(--site-color); 
+	height: 140px;
+	position: relative;
+}
+
+.footer-center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.footer-center h2{
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: 700;
+	display: inline-block;
+
+}
+
+.footer-icons{
+ 	display: flex;
+ 	justify-content: center;
+ 	gap: 15px;
+ }
+
+.footer-icons a{
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	border: 2px solid #ffffff;
+}
+
+.ln-icon{
+	padding: 9px 9px;
+
+}
+
+.fb-icon{
+	padding: 9px 12px;
+}
+
+.inst-icon{
+	padding: 9px 10px;
+
+}
+
+.footer-icons a:hover{
+	box-shadow: 0 0 25px #ffffff;
+}
+
+.copyright{
+	background-color:  rgb(14,29,52);
+	display: inline-block;
+}
+
+.copyright p{
+	font-size: 1.1em;
+	font-weight: 600;
+	opacity: 0.7;
+	text-align: center;
+	padding-top: 14px;
+	color: rgb(185, 185, 185);
+
 }
 
 
@@ -186,6 +661,7 @@
 	100%{
 		top: -200px;
 }
+
 
 
 
