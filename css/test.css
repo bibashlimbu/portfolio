@@ -506,15 +506,17 @@
 
 .first-row .img1{
 	display: inline-block;
-	background-color: red;
 }
 
 .img-glry{
 	cursor: pointer;
+	border-radius: 10px;
+	transition: all 0.8s ease;
+	overflow: hidden;
 }
 
 .img-glry:hover{
-	box-shadow: 0 0 25px 6px var(--site-color); 
+	transform: scale(1.05);
 }
 
 
