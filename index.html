@@ -1,321 +1,496 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>portfolio</title>
-      <link
+  <head>
+    <title>portfolio</title>
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css\test.css">
+    <link rel="stylesheet" type="text/css" href="css\test.css" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
 
-
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
- <!--Nav-bar-->
- <nav class="navbar navbar-expand-lg fixed-top navigation navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="img\BibashLogo2.png" class="logo ms-5"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" data-bs-theme="danger" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center slidebar" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#top"><strong>Home</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about"><strong>About</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#resume"><strong>Resume</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills"><strong>Skills</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#gallery"><strong>Gallery</strong></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <strong> Contact</strong>
-          </a>
-          <ul class="dropdown-menu drpdwn-contact">
-            <li><a class="dropdown-item drpdown-item" href="mailto:bibas9892@gmail.com">E-mail</a></li>
-            <li><a class="dropdown-item drpdown-item" href="#contact">Whats App</a></li>
-            <li><a class="dropdown-item drpdown-item" href="#contact">Send Message</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!--introduction-->
-<div class="container-fluid introduction clearfix" id="top" style="padding: 100px 0;">
-  <div class="container-fluid justify-content-strat p-4 intro-center clearfix">
-    <div class="profile-pic">
-      <img class="rounded-circle" src="img\bibash1.jpg">
-    </div>
-
-    <div class="intro" data-aos="zoom-in" data-aos-duration="1200">
-      <h2 class="text-light name">I'm</h2>
-      <h1 class="bibash">Bibash Limbu</h1>
-      <ul class="texts">
-        <li><span>Developer</li></span>
-        <li><span>Designer</li></span>
-        <li><span>Freelancer</li></span>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!--about-->
-<div class="container-fluid about clearfix" id="about" style="padding: 100px 0;">
-  <div class="heading-center">
-    <h1 class="about-h1">About me</h1>
-    <h2 class="about-h2">About me</h2>
-  </div>
-  <div class="mx-5 my-4 about-center clearfix">
-    <div class="about-pic"  data-aos="fade-up" data-aos-duration="1400">    
-      <img src="img\bibash2.jpg" class="rounded">
-    </div>
-    <div class="about-me ps-4" data-aos="fade-down" data-aos-duration="1400">
-      <h2>Website Developer & Designer</h2>
-      <p>Hello, I'm Bibash Limbu from Pathari-sanichare. I'm presently working at Bross Solutions Pvt. Ltd. as frontend developer and designer which is located at Biratnagar, Barghachhi, Ganesh chowk.</p>
-
-      <table class="table table-borderless about-table">
-        <tbody>
-          <tr>
-            <td>><strong> Birthday:</strong> 4 oct, 2003</td>
-            <td>><strong> Age:</strong> 20</td>
-          </tr>
-
-          <tr>
-            <td>><strong> Degree:</strong> BCA</td>
-            <td>><strong> Experience:</strong> 1year</td>
-          </tr>
-
-          <tr>
-            <td>><strong> Phone:</strong> 9843634952</td>
-            <td>><strong> Email:</strong> bibas9892@gmail.com</td>
-          </tr>
-
-          <tr>
-            <td>><strong> City:</strong> Biratnagar, Nepal</td>
-            <td>><strong> Freelancer:</strong> Available</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <a href="#resume" class="about-readmore"><strong>Read More</strong></a>
-
-    </div>
-  </div>
-</div>
-
-<!--Resume-->
-<div class="container-fluid resume clearfix" id="resume" style="padding: 100px 0;" >
-  <div class="edu-heading">
-    <h1 class="edu-h1">Resume</h1>
-    <h2 class="edu-h2">Resume</h2>
-  </div>
-
-  <div class="mx-5 my-4 resume-center clearfix">
-    <div class="container-fluid education" data-aos="zoom-in-up" data-aos-duration="1400">
-      <h2>Education</h2>
-      <div class="d-flex">
-        <i class="fa-solid fa-circle-dot" style="line-height: 30px;"></i>
-        <div class="ps-4 edu-data ">
-          <h3>Bachelor In Computer Application(In Progress)</h3>
-          <h4>2023-....</h4>
-          <p>I'm currently studying Bachelor In Computer Application(BCA) at Nihareeka college, Biratnager. It is basically 4Years undergraduate program, divided into 8 Semsters.</p>
-        </div>
-      </div>
-
-      <div class="d-flex">
-        <i class="fa-solid fa-circle-dot" style="line-height: 30px;"></i>
-        <div class="ps-4 edu-data ">
-          <h3>Higher Secondary Eduation(10+2)</h3>
-          <h4>2020-2022</h4>
-          <p>I had completed my Higher Secondary Education on computer science at Orchid college, Biratnagar. It is 2Years course that encompasses the theory, design, development and application of computers.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid work-exp" data-aos="zoom-in-up" data-aos-duration="1400">
-      <h2>Work Experiences</h2>
-
-      <div class="d-flex">
-        <i class="fa-solid fa-circle-dot" style="line-height: 30px;"></i>
-        <div class="ps-4 wrkexp-data">
-          <h3>Website Developer(Present)</h3>
-          <h4>Bross Solutions Pvt. Ltd.</h4>
-          <ul>
-            <li>Designed and developed responsive websites.</li>
-            <li>Stayed up to date with latest web development trends and best practises, continuosly expandind knowledge and skills in web development.</li>
-            <li>Worked with team of developers, designers, and project manager to deliver high euality website.</li>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!--Nav-bar-->
+    <nav class="navbar navbar-expand-lg fixed-top navigation navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="img\BibashLogo2.png" class="logo ms-5"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          data-bs-theme="danger"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center slidebar"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#top"
+                ><strong>Home</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><strong>About</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume"><strong>Resume</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"><strong>Skills</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery"><strong>Gallery</strong></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <strong> Contact</strong>
+              </a>
+              <ul class="dropdown-menu drpdwn-contact">
+                <li>
+                  <a
+                    class="dropdown-item drpdown-item"
+                    href="mailto:bibas9892@gmail.com"
+                    >E-mail</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item drpdown-item" href="#contact"
+                    >Whats App</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item drpdown-item" href="#contact"
+                    >Send Message</a
+                  >
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
+    </nav>
 
-      <div class="d-flex">
-        <i class="fa-solid fa-circle-dot" style="line-height: 30px;"></i>
-        <div class="ps-4 wrkexp-data">
-          <h3>Graphic Designer(Present)</h3>
-          <h4>Bross Solutions Pvt. Ltd.</h4>
-          <ul>
-            <li>Developed more than 50 social media post.</li>
-            <li>Designed numerous logos. </li>
-            <li>Managed more than 5 projects.</li>
+    <!--introduction-->
+    <div
+      class="container-fluid introduction clearfix"
+      id="top"
+      style="padding: 100px 0"
+    >
+      <div
+        class="container-fluid justify-content-strat p-4 intro-center clearfix"
+      >
+        <div class="profile-pic">
+          <img class="rounded-circle" src="img\bibash1.jpg" />
+        </div>
+
+        <div class="intro" data-aos="zoom-in" data-aos-duration="1200">
+          <h2 class="text-light name">I'm</h2>
+          <h1 class="bibash">Bibash Limbu</h1>
+          <ul class="texts">
+            <li><span>Developer</span></li>
+            <li><span>Designer</span></li>
+            <li><span>Freelancer</span></li>
           </ul>
         </div>
       </div>
-      
     </div>
 
-  </div>
-
-</div>
-
-<!--Skills-->
-<div class="container-fluid skills clearfix" id="skills" style="padding: 100px 0;">
-  <div class="skills-heading">
-    <h1 class="skl-h1">Skills</h1>
-    <h2 class="skl-h2">Skills</h2>
-  </div>
-
-  <div class="mx-5 my-4 skills-bar clearfix">
-    <div class="sctn1-bar">
-      <h5>HTML</h5>
-      <h5 class="float-end">90%</h5>
-      <div class="progress" data-aos="zoom-in-right" data-aos-duration="1000">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="slide-right" data-aos-duration="800" style="width:90%"></div>
+    <!--about-->
+    <div
+      class="container-fluid about clearfix"
+      id="about"
+      style="padding: 100px 0"
+    >
+      <div class="heading-center">
+        <h1 class="about-h1">About me</h1>
+        <h2 class="about-h2">About me</h2>
       </div>
-
-      <h5>CSS</h5>
-      <h5 class="float-end">80%</h5>
-      <div class="progress" data-aos="zoom-in-right" data-aos-duration="1000">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="slide-right" data-aos-duration="800"  style="width:80%"></div>
-      </div>
-
-      <h5>BOOTSTRAP</h5>
-      <h5 class="float-end">50%</h5>
-      <div class="progress" data-aos="zoom-in-right" data-aos-duration="1000">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="slide-right" data-aos-duration="800" style="width:50%"></div>
-      </div>
-
-    </div>
-
-    <div class="sctn2-bar">
-      <h5>PHOTOSHOP</h5>
-      <h5 class="float-end">40%</h5>
-      <div class="progress" data-aos="zoom-in-right" data-aos-duration="1000">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="slide-right" data-aos-duration="800" style="width:40%"></div>
-      </div>
-
-      <h5>ILLUSTRATOR</h5>
-      <h5 class="float-end">45%</h5>
-      <div class="progress" data-aos="zoom-in-right" data-aos-duration="1000">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="slide-right" data-aos-duration="800" style="width:45%"></div>
-      </div>
-
-
-      <h5>CANVA</h5>
-      <h5 class="float-end">60%</h5>
-      <div class="progress" data-aos="zoom-in-right" data-aos-duration="1000">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="slide-right" data-aos-duration="800" style="width:60%"></div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<!--Gallery-->
-<div class="container-fluid gallery" id="gallery" style="padding: 100px 0;">
-  <div class="glry-heading">
-    <h1 class="glry-h1">Gallery</h1>
-    <h2 class="glry-h2">Gallery</h2>
-  </div>
-
-  <div class="mx-5 my-4">
-    <div class="first-row">
-      <div class="img1" data-aos="zoom-in-up" data-aos-duration="800"><img src="img\img1.jpg" class="img-fluid img-glry"></div>
-      <div class="img2" data-aos="zoom-in-up" data-aos-duration="900"><img src="img\img2.jpg" class="img-fluid img-glry"></div>
-      <div class="img3" data-aos="zoom-in-up" data-aos-duration="1000"><img src="img\img3.jpg" class="img-fluid img-glry"></div>
-      <div class="img4" data-aos="zoom-in-up" data-aos-duration="1100"><img src="img\img4.jpg" class="img-fluid img-glry"></div>
-      <div class="img5" data-aos="zoom-in-up" data-aos-duration="800"><img src="img\img5.jpg" class="img-fluid img-glry"></div>
-      <div class="img6" data-aos="zoom-in-up" data-aos-duration="900"><img src="img\img6.jpg" class="img-fluid img-glry"></div>
-      <div class="img7" data-aos="zoom-in-up" data-aos-duration="1000"><img src="img\img7.jpg" class="img-fluid img-glry"></div>
-      <div class="img8" data-aos="zoom-in-up" data-aos-duration="1100"><img src="img\img8.jpg" class="img-fluid img-glry"></div>
-    </div>
-  </div>
-
-
-</div>
-
-<!--Contact-->
-<div class="container-fluid contact" id="contact" style="padding: 100px 0;">
-  <div class="cnt-heading">
-    <h1 class="cnt-h1">Contact</h1>
-    <h2 class="cnt-h2">Contact</h2>
-  </div>
-
-  <div class="mx-5 my-4">
-    <div class="contact-row">
-      <div class="email" data-aos="zoom-in-up" data-aos-duration="800">
-        <div class="d-flex justify-content-center mt-3 email-center">
-          <i class="fa-solid fa-envelope"></i>
-          <h3>Email</h3>
+      <div class="mx-5 my-4 about-center clearfix">
+        <div class="about-pic" data-aos="fade-up" data-aos-duration="1400">
+          <img src="img\bibash2.jpg" class="rounded" />
         </div>
-        <p>bibas9892@gmail.com</p>
-      </div>
+        <div
+          class="about-me ps-4"
+          data-aos="fade-down"
+          data-aos-duration="1400"
+        >
+          <h2>Website Developer & Designer</h2>
+          <p>
+            Hello, I'm Bibash Limbu from Pathari-sanichare. I'm presently
+            working at Bross Solutions Pvt. Ltd. as frontend developer and
+            designer which is located at Biratnagar, Barghachhi, Ganesh chowk.
+          </p>
 
-      <div class="whats-app" data-aos="zoom-in-up" data-aos-duration="850">
-        <div class="d-flex justify-content-center mt-3 whatsapp-center">
-          <i class="fa-brands fa-square-whatsapp"></i>
-          <h3>Whats App</h3>
+          <table class="table table-borderless about-table">
+            <tbody>
+              <tr>
+                <td>><strong> Birthday:</strong> 4 oct, 2003</td>
+                <td>><strong> Age:</strong> 20</td>
+              </tr>
+
+              <tr>
+                <td>><strong> Degree:</strong> BCA</td>
+                <td>><strong> Experience:</strong> 1year</td>
+              </tr>
+
+              <tr>
+                <td>><strong> Phone:</strong> 9843634952</td>
+                <td>><strong> Email:</strong> bibas9892@gmail.com</td>
+              </tr>
+
+              <tr>
+                <td>><strong> City:</strong> Biratnagar, Nepal</td>
+                <td>><strong> Freelancer:</strong> Available</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <a href="#resume" class="about-readmore"
+            ><strong>Read More</strong></a
+          >
         </div>
-        <p>+977- 9843634952</p>
+      </div>
+    </div>
+
+    <!--Resume-->
+    <div
+      class="container-fluid resume clearfix"
+      id="resume"
+      style="padding: 100px 0"
+    >
+      <div class="edu-heading">
+        <h1 class="edu-h1">Resume</h1>
+        <h2 class="edu-h2">Resume</h2>
       </div>
 
-      <div class="send-msg" data-aos="zoom-in-up" data-aos-duration="900">
-        <div class="d-flex justify-content-center mt-3 sendmsg-center">
-          <i class="fa-solid fa-message"></i>
-          <h3>Send Message</h3>
+      <div class="mx-5 my-4 resume-center clearfix">
+        <div
+          class="container-fluid education"
+          data-aos="zoom-in-up"
+          data-aos-duration="1400"
+        >
+          <h2>Education</h2>
+          <div class="d-flex">
+            <i class="fa-solid fa-circle-dot" style="line-height: 30px"></i>
+            <div class="ps-4 edu-data">
+              <h3>Bachelor In Computer Application(In Progress)</h3>
+              <h4>2023-....</h4>
+              <p>
+                I'm currently studying Bachelor In Computer Application(BCA) at
+                Nihareeka college, Biratnager. It is basically 4Years
+                undergraduate program, divided into 8 Semsters.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <i class="fa-solid fa-circle-dot" style="line-height: 30px"></i>
+            <div class="ps-4 edu-data">
+              <h3>Higher Secondary Eduation(10+2)</h3>
+              <h4>2020-2022</h4>
+              <p>
+                I had completed my Higher Secondary Education on computer
+                science at Orchid college, Biratnagar. It is 2Years course that
+                encompasses the theory, design, development and application of
+                computers.
+              </p>
+            </div>
+          </div>
         </div>
-        <a href="https://docs.google.com/forms/d/1mlPVEkrWYi5PdLU2JftvlaM-CzJJ8jAZwm-BaJZG0Bo/edit" target="_blank" class="btn-sendmsg"><strong>Send Message</strong></a>
+
+        <div
+          class="container-fluid work-exp"
+          data-aos="zoom-in-up"
+          data-aos-duration="1400"
+        >
+          <h2>Work Experiences</h2>
+
+          <div class="d-flex">
+            <i class="fa-solid fa-circle-dot" style="line-height: 30px"></i>
+            <div class="ps-4 wrkexp-data">
+              <h3>Website Developer(Present)</h3>
+              <h4>Bross Solutions Pvt. Ltd.</h4>
+              <ul>
+                <li>Designed and developed responsive websites.</li>
+                <li>
+                  Stayed up to date with latest web development trends and best
+                  practises, continuosly expandind knowledge and skills in web
+                  development.
+                </li>
+                <li>
+                  Worked with team of developers, designers, and project manager
+                  to deliver high euality website.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <i class="fa-solid fa-circle-dot" style="line-height: 30px"></i>
+            <div class="ps-4 wrkexp-data">
+              <h3>Graphic Designer(Present)</h3>
+              <h4>Bross Solutions Pvt. Ltd.</h4>
+              <ul>
+                <li>Developed more than 50 social media post.</li>
+                <li>Designed numerous logos.</li>
+                <li>Managed more than 5 projects.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Skills-->
+    <div
+      class="container-fluid skills clearfix"
+      id="skills"
+      style="padding: 100px 0"
+    >
+      <div class="skills-heading">
+        <h1 class="skl-h1">Skills</h1>
+        <h2 class="skl-h2">Skills</h2>
       </div>
 
+      <div class="mx-5 my-4 skills-bar clearfix">
+        <div class="sctn1-bar">
+          <h5>HTML</h5>
+          <h5 class="float-end">90%</h5>
+          <div
+            class="progress"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              data-aos="slide-right"
+              data-aos-duration="800"
+              style="width: 90%"
+            ></div>
+          </div>
+
+          <h5>CSS</h5>
+          <h5 class="float-end">80%</h5>
+          <div
+            class="progress"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              data-aos="slide-right"
+              data-aos-duration="800"
+              style="width: 80%"
+            ></div>
+          </div>
+
+          <h5>BOOTSTRAP</h5>
+          <h5 class="float-end">50%</h5>
+          <div
+            class="progress"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              data-aos="slide-right"
+              data-aos-duration="800"
+              style="width: 50%"
+            ></div>
+          </div>
+        </div>
+
+        <div class="sctn2-bar">
+          <h5>PHOTOSHOP</h5>
+          <h5 class="float-end">40%</h5>
+          <div
+            class="progress"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              data-aos="slide-right"
+              data-aos-duration="800"
+              style="width: 40%"
+            ></div>
+          </div>
+
+          <h5>ILLUSTRATOR</h5>
+          <h5 class="float-end">45%</h5>
+          <div
+            class="progress"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              data-aos="slide-right"
+              data-aos-duration="800"
+              style="width: 45%"
+            ></div>
+          </div>
+
+          <h5>CANVA</h5>
+          <h5 class="float-end">60%</h5>
+          <div
+            class="progress"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              data-aos="slide-right"
+              data-aos-duration="800"
+              style="width: 60%"
+            ></div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-</div>
+    <!--Gallery-->
+    <div class="container-fluid gallery" id="gallery" style="padding: 100px 0">
+      <div class="glry-heading">
+        <h1 class="glry-h1">Gallery</h1>
+        <h2 class="glry-h2">Gallery</h2>
+      </div>
 
-<!--footer-->
-<div class="container-fluid footer">
-  <div class="footer-center">
-    <h2>Around The Web</h2>
-    <div class="footer-icons">
-      <a href="https://www.linkedin.com/in/bibash-limbu/" target="_blank"><i class="fa-brands fa-linkedin-in ln-icon" style="color: #ffffff; font-size: 30px;"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100014195688699" target="_blank"><i class="fa-brands fa-facebook-f fb-icon"  style="color: #ffffff; font-size: 30px;"></i></a>
-      <a href="https://instagram.com/faymsohang?igshid=NGExMmI2YTkyZg==" target="_blank"><i class="fa-brands fa-instagram inst-icon" style="color: #ffffff; font-size: 30px;"></i></a>
+      <div class="mx-5 my-4">
+        <div class="first-row">
+          <div class="img1" data-aos="zoom-in-up" data-aos-duration="800">
+            <img src="img\img1.jpg" class="img-fluid img-glry" />
+          </div>
+          <div class="img2" data-aos="zoom-in-up" data-aos-duration="900">
+            <img src="img\img2.jpg" class="img-fluid img-glry" />
+          </div>
+          <div class="img3" data-aos="zoom-in-up" data-aos-duration="1000">
+            <img src="img\img3.jpg" class="img-fluid img-glry" />
+          </div>
+          <div class="img4" data-aos="zoom-in-up" data-aos-duration="1100">
+            <img src="img\img4.jpg" class="img-fluid img-glry" />
+          </div>
+          <div class="img5" data-aos="zoom-in-up" data-aos-duration="800">
+            <img src="img\img5.jpg" class="img-fluid img-glry" />
+          </div>
+          <div class="img6" data-aos="zoom-in-up" data-aos-duration="900">
+            <img src="img\img6.jpg" class="img-fluid img-glry" />
+          </div>
+          <div class="img7" data-aos="zoom-in-up" data-aos-duration="1000">
+            <img src="img\img7.jpg" class="img-fluid img-glry" />
+          </div>
+          <div class="img8" data-aos="zoom-in-up" data-aos-duration="1100">
+            <img src="img\img8.jpg" class="img-fluid img-glry" />
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="container-fluid copyright">
-  <p>©Copyright 2023 Bibash Limbu. All Rights Reserved</p>
-</div>
+    <!--Contact-->
+    <div class="container-fluid contact" id="contact" style="padding: 100px 0">
+      <div class="cnt-heading">
+        <h1 class="cnt-h1">Contact</h1>
+        <h2 class="cnt-h2">Contact</h2>
+      </div>
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+      <div class="mx-5 my-4">
+        <div class="contact-row">
+          <div class="email" data-aos="zoom-in-up" data-aos-duration="800">
+            <div class="d-flex justify-content-center mt-3 email-center">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>Email</h3>
+            </div>
+            <p>bibas9892@gmail.com</p>
+          </div>
 
-</body>
+          <div class="whats-app" data-aos="zoom-in-up" data-aos-duration="850">
+            <div class="d-flex justify-content-center mt-3 whatsapp-center">
+              <i class="fa-brands fa-square-whatsapp"></i>
+              <h3>Whats App</h3>
+            </div>
+            <p>+977- 9843634952</p>
+          </div>
+
+          <div class="send-msg" data-aos="zoom-in-up" data-aos-duration="900">
+            <div class="d-flex justify-content-center mt-3 sendmsg-center">
+              <i class="fa-solid fa-message"></i>
+              <h3>Send Message</h3>
+            </div>
+            <a
+              href="https://docs.google.com/forms/d/1mlPVEkrWYi5PdLU2JftvlaM-CzJJ8jAZwm-BaJZG0Bo/edit"
+              target="_blank"
+              class="btn-sendmsg"
+              ><strong>Send Message</strong></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="container-fluid footer">
+      <div class="footer-center">
+        <h2>Around The Web</h2>
+        <div class="footer-icons">
+          <a href="https://www.linkedin.com/in/bibash-limbu/" target="_blank"
+            ><i
+              class="fa-brands fa-linkedin-in ln-icon"
+              style="color: #ffffff; font-size: 30px"
+            ></i
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100014195688699"
+            target="_blank"
+            ><i
+              class="fa-brands fa-facebook-f fb-icon"
+              style="color: #ffffff; font-size: 30px"
+            ></i
+          ></a>
+          <a
+            href="https://instagram.com/faymsohang?igshid=NGExMmI2YTkyZg=="
+            target="_blank"
+            ><i
+              class="fa-brands fa-instagram inst-icon"
+              style="color: #ffffff; font-size: 30px"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid copyright">
+      <p>©Copyright 2023 Bibash Limbu. All Rights Reserved</p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
