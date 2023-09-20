@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio2</title>
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg" id="navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand px-3" href="#"
+          ><h3 class="text-light">BIB<span>ASH</span></h3></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars-staggered" style="color: #ffffff"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+          tabindex="-1"
+        >
+          <div class="offcanvas-header align-self-end">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ><i class="fa-solid fa-xmark" style="color: #ffffff; font-size: 20px;"></i></button>
+          </div>
+          <ul class="navbar-nav me-5">
+            <li class="nav-item">
+              <a class="active navbar_link" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="navbar_link"  href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar_link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar_link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar_link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation Ends-->
+
+    <!-- Introduction -->
+    <section class="introduction" id="home">
+      <div class="container">
+        <div class="row pt-5 intro-row">
+          <div class="col-lg-7 d-flex intro-col1">
+            <figure class="direction">
+              <img src="img/direction.png" class="img-fluid" alt="" />
+            </figure>
+            <div class="">
+              <h1 class="text-light fw-bold display-4">
+                FRONT-END<br /><span class="heading-span">WEB DEVELOPER</span>
+              </h1>
+              <a
+                href="mailto:bibas9892@gmail.com"
+                class="btn btn-outline-primary over-ride-btn me-4 mt-5"
+                >Hire Me</a
+              >
+              <a href="file/bibashCV.pdf"  class="btn btn-outline-primary over-ride-btn mt-5" download="">
+                Download Cv <i class="fa-solid fa-down-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center intro-col2">
+            <figure class="mt-5">
+              <img src="img/hero_image.svg" class="img-fluid" alt="" />
+            </figure>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="#about" class="btn btn-outline-primary btn-lg over-ride-btn"
+            ><i class="fa-solid fa-arrow-down-long"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- Introduction Ends-->
+
+    <!-- About me -->
+    <section class="about-me" id="about" style="padding-top: 100px">
+      <div class="container">
+        <div class="row about-row">
+          <div class="col-lg-5 aboutme-col1">
+            <div class="about-prgh pt-5">
+              <h1 class="text-light display-5 fw-bold">
+                About <span class="heading-span">Me</span>
+              </h1>
+              <p class="text-light pt-5">
+                Welcome to my portfolio, I'm Bibash Limbu from
+                Pathari-sanichare. I'm presently interning at Bross Solutions
+                Pvt. Ltd. as frontend developer and designer which is located at
+                Biratnagar, Barghachhi, Ganesh chowk.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5 aboutme-col2">
+            <figure class="text-center">
+              <img
+                src="img/about-img-right.svg"
+                class="img-fluid pt-5"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About me Ends -->
+
+    <!-- skills -->
+    <section class="skills" id="skills" style="padding-top: 100px">
+      <div class="container">
+        <div class="row skills-row">
+          <div class="col-lg-6">
+            <h1 class="text-light display-5 fw-bold">
+              My <span class="heading-span">Skills</span>
+            </h1>
+            <figure>
+              <img src="img/skills-img.svg" class="img-fluid" alt="" />
+            </figure>
+          </div>
+          <div class="col-lg-6">
+            <div class="skills-bar">
+              <h5 class="text-light d-inline-block">HTML</h5>
+              <h5 class="text-light float-end">90%</h5>
+              <div class="progress mb-4">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 90%"
+                ></div>
+              </div>
+              <h5 class="text-light d-inline-block">CSS</h5>
+              <h5 class="text-light float-end">80%</h5>
+              <div class="progress mb-4">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 80%"
+                ></div>
+              </div>
+              <h5 class="text-light d-inline-block">BOOTSTRAP</h5>
+              <h5 class="text-light float-end">70%</h5>
+              <div class="progress mb-4">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 70%"
+                ></div>
+              </div>
+              <h5 class="text-light d-inline-block">PHOTOSHOP</h5>
+              <h5 class="text-light float-end">40%</h5>
+              <div class="progress mb-4">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 40%"
+                ></div>
+              </div>
+              <h5 class="text-light d-inline-block">ILLUSTRATOR</h5>
+              <h5 class="text-light float-end">45%</h5>
+              <div class="progress mb-4">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 45%"
+                ></div>
+              </div>
+              <h5 class="text-light d-inline-block">CANVA</h5>
+              <h5 class="text-light float-end">60%</h5>
+              <div class="progress mb-4">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 60%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skills Ends-->
+
+    <!-- projects -->
+    <section class="projects clearfix" id="projects" style="padding: 100px 0">
+      <div class="container">
+        <h1 class="text-light display-5 fw-bold">
+          My Recent <span class="heading-span">Projects</span>
+        </h1>
+        <!-- Nav pills -->
+        <div class="pt-5">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="pill" href="#all"
+                >All</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#webdesign"
+                >Web Design</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#post"
+                >Social Media Post</a
+              >
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div id="all" class="container tab-pane active">
+              <br />
+              <div class="projects-row clearfix">
+                <div class="p-4 projects-col">
+                  <figure>
+                    <img src="img/spaceZ.jpg" class="img-fluid" alt="" />
+                  </figure>
+                  <a
+                    href="https://bibashlimbu.github.io/SpaceZ/"
+                    class="btn btn-outline-primary btn-lg down-btn over-ride-btn"
+                    >Live<i class="fa-regular fa-eye ps-3"></i
+                  ></a>
+                </div>
+                <div class="p-4 projects-col">
+                  <figure>
+                    <img src="img/img1.jpg" class="img-fluid" alt="" />
+                  </figure>
+                  <p class="text-light m-0 fw-bold d-inline">
+                    Grow your business with Digital Marketing
+                  </p>
+                </div>
+                <div class="p-4 projects-col">
+                  <figure>
+                    <img src="img/img2.jpg" class="img-fluid" alt="" />
+                  </figure>
+                  <p class="text-light m-0 fw-bold">
+                    Speak English fluent and with confidence
+                  </p>
+                </div>
+                <div class="p-4 projects-col">
+                  <figure>
+                    <img src="img/img5.jpg" class="img-fluid" alt="" />
+                  </figure>
+                  <p class="text-light m-0 fw-bold">
+                    Get ready to shine in summer seasons
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="webdesign" class="container tab-pane fade">
+              <br />
+              <div class="projects-row">
+                <div class="p-4 projects-col">
+                  <figure>
+                    <img src="img/spaceZ.jpg" class="img-fluid" alt="" />
+                  </figure>
+                  <a
+                    href="https://bibashlimbu.github.io/SpaceZ/"
+                    class="btn btn-outline-primary btn-lg down-btn over-ride-btn"
+                    >Live<i class="fa-regular fa-eye ps-3"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div id="post" class="container tab-pane fade">
+              <br />
+              <div class="projects-row">
+                <div class="p-4 projects-col">
+                  <figure>
+                    <img src="img/img1.jpg" class="img-fluid" alt="" />
+                  </figure>
+                  <p class="text-light m-0 fw-bold d-inline">
+                    Grow your business with Digital Marketing
+                  </p>
+                </div>
+                <div class="p-4 projects-col">
+                  <figure>
+                    <img src="img/img2.jpg" class="img-fluid" alt="" />
+                  </figure>
+                  <p class="text-light m-0 fw-bold">
+                    Speak fluent English and with confidence
+                  </p>
+                </div>
+                <div class="p-4 projects-col">
+                  <figure>
+                    <img src="img/img5.jpg" class="img-fluid" alt="" />
+                  </figure>
+                  <p class="text-light m-0 fw-bold">
+                    Get ready to shine in summer seasons
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- projects Ends-->
+
+    <!-- Contact -->
+    <section class="contact" id="contact" style="padding-top: 100px">
+      <div class="container">
+        <div class="row gap-5 contact-row">
+          <div class="col-lg-7">
+            <h1 class="text-light display-5 fw-bold">
+              Got a project in<br />
+              <span class="heading-span">Mind?</span>
+            </h1>
+            <div class="d-flex justify-content-center">
+              <img
+                src="img/contact-bg1.svg"
+                class="img-fluid contact-img"
+                alt=""
+              />
+
+              <img
+                src="img/contact-img.svg"
+                class="img-fluid contact-img"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-4 p-5 contact-col2">
+            <h2 class="text-light display-5 fw-bold">
+              Get in
+              <span class="heading-span">Touch</span>
+            </h2>
+            <p class="text-light">You can contact me through given medium</p>
+            <div class="d-flex pt-5">
+              <i
+                class="fa-regular fa-envelope"
+                style="color: #ffffff; font-size: 30px"
+              ></i>
+              <div class="ps-3">
+                <h5 class="text-light m-0">Email</h5>
+                <p class="text-light">bibas9892@gmail.com</p>
+              </div>
+            </div>
+            <div class="d-flex pt-4">
+              <i
+                class="fa-brands fa-whatsapp"
+                style="color: #ffffff; font-size: 30px"
+              ></i>
+              <div class="ps-3">
+                <h5 class="text-light m-0">Whats App</h5>
+                <p class="text-light">9843634952</p>
+              </div>
+            </div>
+            <div class="d-flex pt-4">
+              <i
+                class="fa-regular fa-message"
+                style="color: #ffffff; font-size: 30px"
+              ></i>
+              <div class="ps-3">
+                <h5 class="text-light mb-3">Send Message</h5>
+                <a
+                  href="https://docs.google.com/forms/d/1mlPVEkrWYi5PdLU2JftvlaM-CzJJ8jAZwm-BaJZG0Bo/edit"
+                  target="_blank"
+                  class="btn btn-outline-primary over-ride-btn"
+                  >Send Message</a
+                >
+              </div>
+            </div>
+            <figure class="mt-2">
+              <img src="img/contact-bg2.svg" class="img-fluid" alt="" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact ends -->
+
+    <!-- footer -->
+    <footer class="footer mt-5" style="padding: 50px 0">
+      <div class="container d-flex justify-content-center">
+        <div class="footer-center">
+          <h2 class="text-light display-5 fw-bold">
+            Around the
+            <span class="heading-span">Web</span>
+          </h2>
+          <div class="footer-icons d-flex justify-content-center gap-4">
+            <a
+              href="https://www.facebook.com/profile.php?id=100014195688699"
+              target="_blank"
+              class="btn btn-outline-primary btn-lg footer-icon"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/bibash-limbu/"
+              target="_blank"
+              class="btn btn-outline-primary btn-lg footer-icon"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://instagram.com/faymsohang?igshid=NGExMmI2YTkyZg=="
+              target="_blank"
+              class="btn btn-outline-primary btn-lg footer-icon"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="d-flex justify-content-center p-2">
+      <p class="text-secondary text-center m-0">
+        ©Copyright 2023 Bibash Limbu. All Rights Reserved
+      </p>
+    </div>
+    <!-- footer ends -->
+
+    <!-- Scroll-top -->
+    <a href="#home" class="btn btn-lg scroll-top"
+      ><i class="fa-solid fa-arrow-up fa-bounce" style="color: #ffffff"></i
+    ></a>
+    <!-- Scroll-top end -->
+
+    <!-- bootstrap link -->
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
