@@ -17,11 +17,13 @@
 
 body {
   position: relative;
+  scroll-behavior: smooth;
   background: linear-gradient(
     176deg,
     rgb(18, 24, 27) 30%,
     rgb(18, 24, 27) 100%
   );
+  scroll-behavior: smooth !important;
 }
 
 body::after {
@@ -126,7 +128,7 @@ body::after {
 }
 
 .heading-span {
- color: var(--site-color);
+  color: var(--site-color);
 }
 
 .direction img {
