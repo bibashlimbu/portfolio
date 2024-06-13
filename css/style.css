@@ -244,7 +244,7 @@ body::after {
   color: #fff !important;
 }
 
-.projects .nav-pills .nav-link{
+.projects .nav-pills .nav-link {
   color: #fff !important;
 }
 
@@ -257,7 +257,8 @@ body::after {
 /*footer */
 
 .footer-icon {
-  border-radius: 50% !important;
+  height: 3rem;
+  width: 3rem;
   color: var(--site-color) !important;
   border-color: var(--site-color) !important;
 }
@@ -303,7 +304,7 @@ body::after {
     );
   }
 
-  .navbar-nav li{
+  .navbar-nav li {
     width: fit-content;
   }
 
