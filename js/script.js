@@ -35,13 +35,19 @@ window.onscroll = () => {
       id === "home"
         ? scroll_up.classList.remove("active")
         : scroll_up.classList.add("active");
-        removeActive();
-              document
-                .querySelector(`.navbar_link[href*='${id}']`)
-                .classList.add("navlink_active");
+      removeActive();
+      document
+        .querySelector(`.navbar_link[href*='${id}']`)
+        .classList.add("navlink_active");
     }
   });
 };
+
+const loader = document.getElementById("overlay");
+console.log(loader);
+window.addEventListener("load", () => {
+  loader.style.display = "none";
+});
 
 //navbar active
 // const navLinks = document.querySelectorAll(".navbar_link");
