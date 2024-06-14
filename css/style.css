@@ -209,13 +209,12 @@ body::after {
 .projects-row {
   display: grid !important;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2%;
+  gap: 2rem 2rem;
 }
 
 .projects-col {
   border-radius: 20px;
   background-color: rgb(3, 2, 2);
-  /* box-shadow: 0 0 10px rgb(38, 42, 43); */
   border: 1px solid #fff !important;
   cursor: pointer;
 }
@@ -360,7 +359,6 @@ body::after {
   /*projects */
   .projects-row {
     grid-template-columns: repeat(2, 1fr);
-    gap: 3%;
   }
 }
 
@@ -374,7 +372,6 @@ body::after {
   /*projects */
   .projects-row {
     grid-template-columns: auto;
-    gap: 1%;
   }
 
   /* contact */
