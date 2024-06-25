@@ -42,7 +42,7 @@ body::after {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 7px;
   aspect-ratio: 1;
 }
 
